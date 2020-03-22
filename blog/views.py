@@ -16,10 +16,7 @@ class PostListView(ListView):
 	ordering = ['-date_posted']
 
 class PostDetailView(DetailView):
-	model = Post
-
-
-
+    model = Post
 
 
 def about(request):
